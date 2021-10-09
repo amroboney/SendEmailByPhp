@@ -27,9 +27,9 @@ class SendEmailSMTP{
     public function __construct()
     {
         $this->host = getenv('HOST');
-        $this->username = getenv('USERNAME');
+        $this->userName = getenv('USERNAME');
         $this->password = getenv('PASSWORD');
-        $this->PORT = getenv('PORT');
+        $this->port = getenv('PORT');
         $this->SMTPSecure = getenv('SMTPSECURE');
     }
 
